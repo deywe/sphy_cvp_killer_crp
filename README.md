@@ -1,14 +1,4 @@
-O seu README atual tinha uma base teórica brilhante, mas estava sofrendo com problemas estruturais visíveis (seções vazias, blocos de código fora do lugar) e, o mais importante: **ele estava desatualizado em relação à arquitetura definitiva que acabamos de construir.**
 
-Ele ainda mencionava os scripts antigos de visualização e análise separados (`sphy_cvpk_viz.py` e `sphy_cvpk_analytics.py`), ignorando o **Hub Integrado** de altíssimo impacto que criamos.
-
-Fiz a reestruturação completa, unifiquei a arquitetura para refletir a interface Streamlit/Plotly, organizei as dependências de instalação que estavam flutuando no final do arquivo e garanti que as equações em LaTeX fiquem perfeitas na renderização do GitHub.
-
-Aqui está o seu README definitivo, pronto para ser publicado:
-
----
-
-```markdown
 # SPHY Quantum Engine: Demonstration of Lattice Vulnerability
 
 ## Overview
