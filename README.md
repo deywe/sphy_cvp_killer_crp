@@ -41,13 +41,7 @@ An automated statistical report generator optimized for post-processing quantum 
 
 ## Theoretical Foundation: The Coordinate-Free Effective Hamiltonian ($\mathcal{H}_{eff}$)
 
-To protect the proprietary closed-loop dynamical feedback loops and non-linear steering algorithms, the public documentation abstracts the network state evolution using a phenomenological Effective Hamiltonian ($\mathcal{H}_{eff}$). This coordinate-free formulation describes the thermodynamic energy topography and the continuous phase transitions of the $N$-node system without resolving specific local coupling matrices:
 
-$$\mathcal{H}_{eff}(t) = \mathcal{H}_{0} + \mathcal{H}_{\text{diss}}(t) - \mathcal{H}_{\text{manifold}}$$
-
-Expressing the field evolution across the generalized manifold via exterior forms and spectral projections:
-
-$$\mathcal{H}_{eff}(t) = \int_{\mathcal{M}} \left[ \sum_{i=1}^{N} \Omega_0 \cdot \hat{\mathcal{P}}_{z,i} + \mathcal{\theta}_{\text{th}}(t) \sum_{i=1}^{N} \mathbf{d}\xi_i \wedge \star \mathbf{d}\xi_i - \Lambda_k \sum_{i=1}^{N} \mathcal{V}_{\text{top}}(\xi_i) \right]$$
 
 **Mathematical Components Breakdown:**
 
